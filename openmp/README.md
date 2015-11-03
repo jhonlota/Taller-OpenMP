@@ -9,12 +9,12 @@ Se puede observar que dentro de la interacción, se ejecutan dos sentencias “p
 ![alt tag](https://docs.google.com/drawings/d/1b9V-RUUkrm7inGaBzJlgDl6nQ1vfEGqQi4OZsBuw7Bc/pub?w=483&h=100)
 * `Interacción 1` En esta interacción ud. debe hacer los ajustes al código fuente de acuerdo a como lo especifican los comentarios en el archivo .c. Compile el programa de la siguiente manera gcc -fopenmp helloworld -o helloworld. Cuantos hilos se ejecutan?
 
-Como resultado obtenemos la ejecucion de 4 hilos, pero estos hilos se ejecutan al momento de invocar cada una de las instrucciones “printf”, por esta razon se eimprimen cuatro veces de segido la palabra Hello, y luego cuatro la palabra World. Igualmente los hilos no son sicronizados, se ejecutan de manera aleatoria y sin orden alguno.
+Como resultado obtenemos la ejecución de 4 hilos, pero estos hilos se ejecutan al momento de invocar cada una de las instrucciones “printf”, por esta razón se imprimen cuatro veces de seguido la palabra Hello, y luego cuatro la palabra World. Igualmente los hilos no son sincronizados, se ejecutan de manera aleatoria y sin orden alguno.
 
 ![alt tag](https://docs.google.com/drawings/d/19o17_V6OU-BWtfY7xQ-Tn1CZlh2sr2vEZgihirmeD78/pub?w=547&h=100)
 * `Interacción 2` Haga los ajustes que correspondan al código fuente de acuerdo con lo especificado en los comentarios del programa .c. Compile el programa de la siguiente manera gcc -fopenmp helloworld -o helloworld. Cuantos hilos se ejecutan? Difiere el número de hilos con relación al anterior? Por qué?
 
-En esta interaccion se observa que se ejecutan los cinco hilos, los cuales han sido asignados a traves de la declaracion #pragma omp parallel num_threads(5), pero igual al ejemplo anterior, donde los hilos se ejecutan de manera independiente, lo cual no demuestra un orden en la ejecucion de cada sentencia.
+En esta interacción se observa que se ejecutan los cinco hilos, los cuales han sido asignados a través de la declaración #pragma omp parallel num_threads(5), pero igual al ejemplo anterior, donde los hilos se ejecutan de manera independiente, lo cual no demuestra un orden en la ejecución de cada sentencia.
 
 ![alt tag](https://docs.google.com/drawings/d/1KDilgPg1eJSmnekJpJUkiJt0ljBXOMFsD7HONGlfD8M/pub?w=551&h=113)
 * `parallel_00.c` En este código se puede ver en acción la invocación en paralelo de un bloque de código en C y como se especifica que una variable sea tomada como una variable privada y accesible solo para un hilo.
