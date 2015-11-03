@@ -4,10 +4,8 @@
 
 * `Interacción 0`
 En esta interacción lo único que debe hacer es compilar el programa gcc helloworld.c -o helloworld. Observe los resultados de la ejecución.
-![alt tag](https://docs.google.com/drawings/d/1IhmW3pFvKPecRys3CdaVBpYT40AUfn9p92gniLlYXHQ/pub?w=484&h=100)
-
 Se puede observar que dentro de la interacción, se ejecutan dos sentencias “printf” de manera secuencial.
-
+![alt tag](https://docs.google.com/drawings/d/1IhmW3pFvKPecRys3CdaVBpYT40AUfn9p92gniLlYXHQ/pub?w=484&h=100)
 * `Interacción 1`
 En esta interacción ud. debe hacer los ajustes al código fuente de acuerdo a como lo especifican los comentarios en el archivo .c. Compile el programa de la siguiente manera gcc -fopenmp helloworld -o helloworld. Cuantos hilos se ejecutan?
 
@@ -35,4 +33,4 @@ En este programa se muestra la paralelización de un ciclo `for` pero además mu
 
 * `pi.c`
 
-* `montecarlopi.c`
+* `pi.c`
