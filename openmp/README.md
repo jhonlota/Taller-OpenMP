@@ -13,6 +13,7 @@ En esta interacción ud. debe hacer los ajustes al código fuente de acuerdo a c
 
 Como resultado obtenemos la ejecucion de 4 hilos, pero estos hilos se ejecutan al momento de invocar cada una de las instrucciones “printf”, por esta razon se eimprimen cuatro veces de segido la palabra Hello, y luego cuatro la palabra World. Igualmente los hilos no son sicronizados, se ejecutan de manera aleatoria y sin orden alguno.
 
+![alt tag](https://docs.google.com/drawings/d/19o17_V6OU-BWtfY7xQ-Tn1CZlh2sr2vEZgihirmeD78/pub?w=547&h=100)
 * `Interacción 2`
 Haga los ajustes que correspondan al código fuente de acuerdo con lo especificado en los comentarios del programa .c. Compile el programa de la siguiente manera gcc -fopenmp helloworld -o helloworld. Cuantos hilos se ejecutan? Difiere el número de hilos con relación al anterior? Por qué?
 
