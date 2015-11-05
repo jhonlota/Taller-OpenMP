@@ -4,7 +4,7 @@
 int main(int argc, char** argv) {
     int i, n, chunk;
     float a[100], b[100];
-    int result;
+    float result;
     n = 100;
     chunk = 10;
     result = 0;
@@ -21,5 +21,5 @@ int main(int argc, char** argv) {
         result = result + (a[i] * b[i]);
     }
 
-    printf("Final result = %d\n", result);
+    printf("Final result = %f\n", result);
 }

@@ -34,4 +34,9 @@ En esta interacción se observa que se ejecutan los cinco hilos, los cuales han 
 ![alt tag](https://docs.google.com/drawings/d/1JapPu900WMleyGw6JHrYNcy8q_33obbsUnrkajqNwac/pub?w=563&h=100)
 * `pi.c` usa una aproximación a través del cálculo del área bajo la curva.
 
+![alt tag](https://docs.google.com/drawings/d/1VeV0uvJE8z-Rpz_wgXFhna7OwyDJIcFMIMIF9tt40y8/pub?w=518&h=383)
+![alt tag](https://docs.google.com/drawings/d/1jeOvO7HOeSxj-wAtTwOmKBjHvwrkhSMx0kMuGReJWh0/pub?w=433&h=115)
 * `montecarlopi.c` usa una aproximación basada en el método Monte Carlo para de forma aleatoria se llegue a la estimación del valor de Pi.
+
+![alt tag](https://docs.google.com/drawings/d/1dtPCD79IH9YpnVUOxj71sUxTjrO1OAf9UvKSa-Io3iA/pub?w=548&h=467)
+![alt tag](https://docs.google.com/drawings/d/1QKvMTKG3NObN9nVnPIeF8XGBxvsgziIaANc-yTkGslM/pub?w=569&h=147)
